@@ -19,7 +19,7 @@ import java.util.List;
 
 public class UsersActivity extends AppCompatActivity {
 
-    private static final String USERS_URL = "http://10.0.2.2:3000/api/users/1";
+    private static final String USERS_URL = "http://10.0.2.2:3000/api/users/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

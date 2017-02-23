@@ -76,12 +76,14 @@ public class MainActivityHome extends AppCompatActivity
             intent = new Intent(this, UsersActivity.class);
         } else if (id == R.id.settings) {
             intent = new Intent(this, SettingsActivity.class);
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.about) {
+            intent = new Intent(this, AboutActivity.class);
+        } else if (id == R.id.contact) {
+            intent = new Intent(this, ContactActivity.class);
+        }
+        else if (id == R.id.privacy) {
 
         }
-
         if(intent != null){ startActivity(intent); }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

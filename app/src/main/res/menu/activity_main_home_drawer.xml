@@ -14,17 +14,15 @@
             android:title="Settings"/>
     </group>
 
-    <item android:title="Communicate">
-        <menu>
+    <group android:checkableBehavior="single">
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/about"
+                android:title="About" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
-
+                android:id="@+id/contact"
+                android:title="Contact" />
+            <item
+                android:id="@+id/privacy"
+                android:title="Privacy" />
+    </group>
 </menu>

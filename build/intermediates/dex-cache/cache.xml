@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="f7ff402e2711ec691f277a8752874f54045f3da6">
+        sha1="da75a7eda0d260535e4a49d6aa0e6577319f27b1">
         <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b2708274c6872ce5e5fdcdef1fce83391cb84acb/classes.dex" />
     </item>
     <item
@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="ee425213b5940468ee0516ee3b887041cd0d1f9a">
+        sha1="4bf9d5e8fbaf2fd028b79e7b20d95bc1b78d0b36">
         <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8f0e178849b15aa227e49d4956b4c6f5cb5ac2e6/classes.dex" />
     </item>
     <item
