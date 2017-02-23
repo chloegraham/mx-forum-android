@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.joshua.mx_forum_app.chloe.android_mx_forum.LogInActivity"
+    tools:context="com.example.joshua.mx_forum_app.LogInActivity"
     tools:showIn="@layout/activity_log_in">
 
     <EditText
@@ -38,6 +38,7 @@
 
     <Button
         android:text="Log In"
+        android:onClick="loginUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/logIn"

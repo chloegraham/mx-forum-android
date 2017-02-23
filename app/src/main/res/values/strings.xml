@@ -11,5 +11,6 @@
     <string name="title_activity_users">UsersActivity</string>
     <string name="title_activity_about">AboutActivity</string>
     <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_privacy">PrivacyActivity</string>
 
 </resources>

@@ -2,14 +2,10 @@ package com.example.joshua.mx_forum_app;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
-
-import com.example.joshua.mx_forum_app.R;
 
 public class LogInActivity extends AppCompatActivity {
 
@@ -31,6 +27,10 @@ public class LogInActivity extends AppCompatActivity {
         String password = ((EditText)findViewById(R.id.password)).getText().toString();
 
         //send data to API to validate login
+
+        //navigation to home page for example purposes
+        Intent intent = new Intent(this, MainActivityHome.class);
+        startActivity(intent);
     }
 
 }

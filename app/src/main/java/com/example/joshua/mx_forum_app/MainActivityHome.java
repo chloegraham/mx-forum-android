@@ -80,9 +80,8 @@ public class MainActivityHome extends AppCompatActivity
             intent = new Intent(this, AboutActivity.class);
         } else if (id == R.id.contact) {
             intent = new Intent(this, ContactActivity.class);
-        }
-        else if (id == R.id.privacy) {
-
+        } else if (id == R.id.privacy) {
+            intent = new Intent(this, PrivacyActivity.class);
         }
         if(intent != null){ startActivity(intent); }
 

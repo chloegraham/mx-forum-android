@@ -3,156 +3,165 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_2c6f1b1770efb67e84182ce1d93de9388fe97c78/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="da75a7eda0d260535e4a49d6aa0e6577319f27b1">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b2708274c6872ce5e5fdcdef1fce83391cb84acb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_d76c5caa310acdb098c9ffb39ecb0b9293187372/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bde810252918462f9cbfd61c9f550778ebb021e1/classes.dex" />
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_65868101a27c0c89deed55f0ece6688149d35ceb/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_c51b1c874ad3582b1e409b8e7ca8bbfe01194363/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="4bf9d5e8fbaf2fd028b79e7b20d95bc1b78d0b36">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8f0e178849b15aa227e49d4956b4c6f5cb5ac2e6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ebbb79fa763ec984af104e3341bdd9c4b61d923a/classes.dex" />
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_275c56dffddad66eb297d2dfc9145cb5d62e85d3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_29bbff0bb0e7b3c598981b38b8785301147fe2af/classes.dex" />
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_5256535a83d34f0db6aeb6b4a5bcae2cd8f86b6a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_41437b8b320235b0c44aaa54a3b5854b86815bd0/classes.dex" />
+        sha1="8da8eb8d6503d05af3ecc71c2d3a35bd41ca663f">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_924ff21900e354d7445a4303af95637e4ba6eef1/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_0008d7df5f5e614ca833e8735bc221429fce395d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_df003bbd16447d0e63a2af337f69a67049046246/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_2729a9392a7886411cf820b75eb9e6c9daace606/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_d1b115e1cfb060a9231db493624a7fa03573b336/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_6a8f14f40bd136e86f907c3f08e8f7f6fd124d10/classes.dex" />
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_b589ec7472f3b298c0491e4cbb03b78616afd2ea/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c5aab46e8938c5b4c10ebc1cb6e35c8bef446998">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f96c6868df9597f26e82fb4848847a889a5a5e27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_68be98c008adc19d72b5c28f97d7360c92d38c8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_054ebe85c8603ed542a3f479e6992df26118313b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_dc4153edbd04ee9009c867b71c4899bd9f9bca33/classes.dex" />
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_b70c7d7fc631e47020413c10ca11f9550d719006/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_0a24b5f7ca79a9810d07d01a9028feb7d43b56d6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_4d1be8602b2c31a8a8e150375033a47acf3281eb/classes.dex" />
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a18f18cfc363a775156a76b42dab59f96131e939/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_7fa4bc025edec187d26a8efaaee5234ee745d6e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_edeaa7622d92ab0fcad716f6c8d213ceee00ea7c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_76bf79def6341b47a0b3bda0102312456305b913/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_87ad81596abc7b5f1febc8b2aa351512fb90ff64/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_74fc42869ce0e960e925fec4b4f88421453867a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_354569c49ad791686f40476ac8b459b79dd1fec5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d30b7f37fd97c9eb87e091ce9e15024f71d74390/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_f2510ba5fb103cd145a12d7ba6cb4bd3422a7170/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -161,16 +170,7 @@
         optimize="true"
         revision="24.0.3"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_88136bc997eb9b33870bc49e744bb80c114ca651/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Joshua/Downloads/MX-Forum-App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_bc12aee6e763ad3c0994535529b041fc18c32ef1/classes.dex" />
+        <dex dex="/Users/Joshua/Downloads/mx-forum-android-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_88136bc997eb9b33870bc49e744bb80c114ca651/classes.dex" />
     </item>
 
 </items>
