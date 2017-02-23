@@ -32,6 +32,23 @@ public class SignUpActivity extends AppCompatActivity {
             EditText fname = (EditText) findViewById(R.id.firstName);
             EditTextClickListener listener = new EditTextClickListener(fname);
             fname.setOnClickListener(listener);
+
+            EditText lname = (EditText) findViewById(R.id.firstName);
+            EditTextClickListener listener1 = new EditTextClickListener(lname);
+            lname.setOnClickListener(listener1);
+
+            EditText email = (EditText) findViewById(R.id.firstName);
+            EditTextClickListener listener2 = new EditTextClickListener(email);
+            email.setOnClickListener(listener2);
+
+            EditText pword = (EditText) findViewById(R.id.firstName);
+            EditTextClickListener listener3 = new EditTextClickListener(pword);
+            pword.setOnClickListener(listener3);
+
+            EditText confirmedpword = (EditText) findViewById(R.id.firstName);
+            EditTextClickListener listener4 = new EditTextClickListener(confirmedpword);
+            confirmedpword.setOnClickListener(listener4);
+
         }
 
 //        //can do this with other fields if desired...will leave for now
