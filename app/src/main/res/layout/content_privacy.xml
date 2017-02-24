@@ -21,4 +21,23 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
         android:id="@+id/textView4" />
+
+    <Button
+        android:text="Home"
+        android:onClick="takeUserToHomeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/priv"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/priv"
+        android:text="We promise to keep all information confidential" />
 </RelativeLayout>

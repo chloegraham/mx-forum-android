@@ -13,4 +13,23 @@
     tools:context="com.example.joshua.mx_forum_app.UsersActivity"
     tools:showIn="@layout/activity_users">
 
+    <Button
+        android:text="Home"
+        android:onClick="takeUserToHomeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userz"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp" />
+
+    <TextView
+        android:text="COMING SOON!!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:id="@+id/textView5" />
+
 </RelativeLayout>

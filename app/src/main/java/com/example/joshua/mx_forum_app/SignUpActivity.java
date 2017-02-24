@@ -2,18 +2,24 @@ package com.example.joshua.mx_forum_app;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -75,25 +81,23 @@ public class SignUpActivity extends AppCompatActivity {
 //     * @param view
 //     */
     public void signUpUser(View view) {
-    SignUpActivity.PostUserSignUp userSignUp = new SignUpActivity.PostUserSignUp(SignUpActivity.this);
-        //userSignUp.setMessageLoading("Loading tasks...");
-        //userSignUp.execute(url);
         String firstName = ((EditText) findViewById(R.id.firstName)).getText().toString();
         String lastName = ((EditText) findViewById(R.id.lastName)).getText().toString();
         String email = ((EditText) findViewById(R.id.email)).getText().toString();
         String password = ((EditText) findViewById(R.id.password)).getText().toString();
         String passwordConfirmation = ((EditText) findViewById(R.id.passwordConfirmation)).getText().toString();
         String[] args = new String[] {firstName,lastName,email,password,passwordConfirmation};
-        userSignUp.execute(args);
+        new SignUpActivity.PostUserSignUp().execute(args);
+        //userSignUp.setMessageLoading("Loading tasks...");
+        //userSignUp.execute(url);
+
+        //userSignUp.execute(args);
     }
 
     private class PostUserSignUp extends AsyncTask<String, Void, String>{
-        public PostUserSignUp(Context context) {
-
-             }
 
         @Override
-        protected String doInBackground(String... params) {
+        protected String doInBackground(String... params){
 
             //String details = firstName + " " + lastName + " " + email + " " + password + " " + passwordConfirmation;
             String firstName = params[0];
@@ -104,13 +108,35 @@ public class SignUpActivity extends AppCompatActivity {
             // Log.d("SignUpActivity", details);
 
             try {
-                URL url = new URL("http://10.0.2.2:3000/api/users/create");
+                URL url = new URL("http://10.0.2.2:3000/users/create");
                 HttpURLConnection urlConn = null;
                 DataOutputStream printout;
                 DataInputStream input;
                 try {
                     urlConn = (HttpURLConnection) url.openConnection();
-                    if (urlConn != null) {
+                    try {
+                        urlConn.setDoOutput(true);
+                        urlConn.setChunkedStreamingMode(0);
+                        urlConn.setRequestMethod("POST");
+                        urlConn.setRequestProperty("Content-Type", "application/json");
+                        urlConn.setRequestProperty("Accept", "application/json");
+                        urlConn.connect();
+
+                        int responseCode = urlConn.getResponseCode();
+                        if (responseCode != HttpURLConnection.HTTP_OK) {
+                            throw new IOException("HTTP error code: " + responseCode);
+                        }
+                        OutputStream out = new BufferedOutputStream(urlConn.getOutputStream());
+                        //writeStream(out);
+                        Log.i("out", out.toString());
+
+                        InputStream in = new BufferedInputStream(urlConn.getInputStream());
+                        Log.i("in", in.toString());
+                        //readStream(in);
+                    } finally {
+                        urlConn.disconnect();
+                    }
+                    /*if (urlConn != null) {
                         urlConn.setDoInput(true);
                         urlConn.setDoOutput(true);
                         urlConn.setUseCaches(false);
@@ -118,6 +144,7 @@ public class SignUpActivity extends AppCompatActivity {
                         urlConn.setRequestProperty("Content-Type", "application/json");
                         urlConn.setRequestProperty("Accept", "application/json");
                         urlConn.connect();
+                        int responseCode = urlConn.getResponseCode();
                         //Create JSONObject here
                         JSONObject jsonParam = new JSONObject();
                         jsonParam.put("first_name", firstName);
@@ -133,7 +160,7 @@ public class SignUpActivity extends AppCompatActivity {
                         printout.close();
                         urlConn.disconnect();
                         return "success";
-                    }
+                    }*/
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -141,14 +168,23 @@ public class SignUpActivity extends AppCompatActivity {
                     urlConn.disconnect();
                 }
             } catch (MalformedURLException e) {
-
-            } catch (JSONException e) {
                 e.printStackTrace();
+        //    } catch (JSONException e) {
+          //      e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             }
             return "fail";
         }
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            Log.i("json", s);
+        }
     }
 
+    public void takeUserToHomeActivity(View view) {
+        Intent intent = new Intent(this, MainActivityHome.class);
+        startActivity(intent);
+    }
 }
